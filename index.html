@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-..." crossorigin="anonymous">
+    <title>Muhannad's Modeling portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logonobg.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href='#header'>Home</a></li>
+                <li><a href='#about'>About</a></li> <!-- Updated anchor link -->
+                <li><a href='#portfolio'>Images</a></li>
+                <li><a href='#videos'>videos</a>
+                <li><a href='#contact'>Contact</a></li>
+                <li><i class="fas fa-times-circle hide-on-large" onclick="closemenu()"></i></li>
+            </ul>
+            <i class="fas fa-bars hide-on-large" onclick="openmenu()"></i>
+        </nav>        
+        <div class="header-text">
+            <h1>I STRIVE TO BRING MY VERSATILE AUTHENTICITY AND LOVE OF EXPRESSION THROUGH MOVEMENT INTO EVERYTHING I DO AND CREATE</h1>
+        </div> 
+    </div>
+</div>
+
+<!-- About section -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="My_pics/16.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p> I am Muhannad Ekasheh, a driven professional excelling in modeling, sales, and entrepreneurship. Based in Oakville, ON, I bring extensive experience in marketing, customer service, and effective communication to the table. From representing top brands as a professional model to founding and leading successful ventures like Famekicks, I am dedicated to making a positive impact in every project I undertake. With a proven track record of delivering exceptional results and a passion for innovation, I am committed to driving growth and fostering collaboration in the professional landscape.
+                    </p>
+
+                <div class="padding-about"></div>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p> 
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <!-- Tab contents -->
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Sales</span><br>Closing Sales</li>
+                        <li><span>Model</span><br>Model & Commercial Advertiser</li>
+                        <li><span>Marketing</span><br>Social Media Marketing</li>
+                        <li><span>Web Development</span><br>Website & Software Development</li>
+                    </ul>
+                </div>
+
+                <!----------experience---------->
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2024 - current</span><br>Marketing Street Team Member At Sheridan College</li>
+                        <li><span>2022 - current</span><br>Founder & CEO At Famekicks</li>
+                        <li><span>2020 - 2023</span><br>Sales Representative At Taktik Design & Decoration</li>
+                        <li><span>2020 - 2023</span><br>Professional Model and Advertising Talent At MMG Modeling Agency</li>
+                    </ul>
+                </div>
+
+                <!----------education---------->
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>current - 2026</span><br>Computer Systems Technology - Software Development and Network Engineering At Sheridan College</li>
+                        <li><span>2023</span><br>High School Graduate At Providence English Private School</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <!----------My images---------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Images</h1>
+            <div class="work-list">
+                
+                <div class="work">
+                    <img src="My_pics/1.jpeg">
+                </div>
+                <div class="work">
+                    <img src="My_pics/2.jpeg">
+                </div>                
+                <div class="work">
+                    <img src="My_pics/12.jpg">
+                </div>
+                <div class="work">
+                    <img src="My_pics/5.jpeg">
+                </div>
+                <div class="work ">
+                    <img src="My_pics/3.jpg">
+                </div>
+                <div class="work">
+                    <img src="My_pics/6.jpeg">
+                </div>
+                <div class="work">
+                    <img src="My_pics/4.jpeg">
+                </div>
+                <div class="work">
+                    <img src="My_pics/9.jpg">
+                </div>
+                <div class="work">
+                    <img src="My_pics/11.jpg">
+                </div>
+                <div class="work">
+                    <img src="My_pics/13.jpg">
+                </div>
+                <div class="work">
+                    <img src="My_pics/14.jpg">
+                </div>
+                <div class="work">
+                    <img src="My_pics/15.jpg">
+                </div>
+                <div class="work">
+                    <img src="My_pics/8.jpeg">
+                </div>
+
+                <div class="work">
+                    <img src="My_pics/ikea4.jpeg">
+                </div><div class="work">
+                    <img src="My_pics/ikea2.jpeg">
+                </div><div class="work">
+                    <img src="My_pics/ikea1.jpeg">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<!-- My Videos -->
+<div id="videos">
+    <div class="container">
+        <h1 class="sub-title">My Videos</h1>
+        <div class="video-list">
+            <div class="video">
+                <iframe src="https://player.vimeo.com/video/897750213" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe src="https://player.vimeo.com/video/897750556" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe src="https://player.vimeo.com/video/897749630" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            
+            <!-- Add more videos as needed -->
+        </div>
+    </div>
+</div>
+
+
+
+
+                    <!----------Contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> ekashehmuhannad@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +1 437 669 1169</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/muhannad.aminn/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/muhannad-ekasheh"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Muhannad's Resume.pdf" Download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn   btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Muhannad Ekasheh. Made with <i class="fa-solid fa-heart"></i> by Muhannad.  </p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+
+<script>
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu() {
+    sidemenu.style.right = "0";
+}
+
+function closemenu() {
+    sidemenu.style.right = "-200px";
+}
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwa5m0-RUR-ZNzHhuhYu9je2B1c_BMSMWAGIgOpppgQBar4rKP3lJUwKppoHCArj5y9/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById('msg');
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully!";
+                setTimeout(function(){
+                    msg.innerHTML = "";
+                }, 5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message));
+    });
+</script>
+
+
+</body>
+</html>
